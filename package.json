@@ -1,0 +1,19 @@
+{
+  "name": "04-proyect-web-server",
+  "version": "0.0.1",
+  "description": "Proyecto de web server para practicar NodeJS",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Joseph Code",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.5.0",
+    "express": "^4.21.0"
+  }
+}
